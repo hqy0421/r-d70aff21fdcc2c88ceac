@@ -40,6 +40,13 @@ from .api.map import map
 from .api.ordered import ordered
 from .api.run import run
 from .api.to_iterable import to_iterable
+from .api.validate import (
+    Quarantined,
+    ValidationError,
+    ValidationPath,
+    ValidationResult,
+    validate,
+)
 from .queue import IterableQueue, OutputQueues
 from .supervisor import Supervisor
 from .utils import Namespace
